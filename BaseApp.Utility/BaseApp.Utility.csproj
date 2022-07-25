@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Factory\" />
+    <Folder Include="Hubs\" />
+    <Folder Include="Jobs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseApp.Core\BaseApp.Core.csproj" />
+    <ProjectReference Include="..\BaseApp.Data\BaseApp.Data.csproj" />
+    <ProjectReference Include="..\BaseApp.Domain\BaseApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseApp.Core\BaseApp.Core.csproj" />
+    <ProjectReference Include="..\BaseApp.Data\BaseApp.Data.csproj" />
+    <ProjectReference Include="..\BaseApp.Services\BaseApp.Services.csproj" />
+    <ProjectReference Include="..\BaseApp.Utility\BaseApp.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
