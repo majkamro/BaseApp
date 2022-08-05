@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <Folder Include="Context\" />
+    <Folder Include="Configs\" />
+    <Folder Include="UnitOfWork\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BaseApp.Core\BaseApp.Core.csproj" />
     <ProjectReference Include="..\BaseApp.Domain\BaseApp.Domain.csproj" />
   </ItemGroup>
 
