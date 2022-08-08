@@ -7,12 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Mapper\" />
-    <Folder Include="Models\Entities\Base\" />
-    <Folder Include="Models\Entities\Identity\" />
-    <Folder Include="Models\Entities\Log\" />
-    <Folder Include="Models\Enums\" />
-    <Folder Include="Models\Mappings\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Interfaces\UnitOfWork\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
 
   <ItemGroup>

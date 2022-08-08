@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Core", "BaseApp.Core\BaseApp.Core.csproj", "{FFE7BF3B-F00C-4E65-8C3C-AECEF33DA5AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseApp.Core", "BaseApp.Core\BaseApp.Core.csproj", "{FFE7BF3B-F00C-4E65-8C3C-AECEF33DA5AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Data", "BaseApp.Data\BaseApp.Data.csproj", "{5FA44F8E-00BD-43AA-B689-50AF12BF44F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseApp.Data", "BaseApp.Data\BaseApp.Data.csproj", "{5FA44F8E-00BD-43AA-B689-50AF12BF44F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Domain", "BaseApp.Domain\BaseApp.Domain.csproj", "{6FD5306B-1822-46E2-A061-39A58E565095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseApp.Domain", "BaseApp.Domain\BaseApp.Domain.csproj", "{6FD5306B-1822-46E2-A061-39A58E565095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Services", "BaseApp.Services\BaseApp.Services.csproj", "{EF145BBF-EF54-46EA-AA0C-D48EF4B7325B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseApp.IoC", "BaseApp.Services\BaseApp.IoC.csproj", "{EF145BBF-EF54-46EA-AA0C-D48EF4B7325B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Utility", "BaseApp.Utility\BaseApp.Utility.csproj", "{87F1756E-B582-45D7-BF13-D12D92046EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseApp.Application", "BaseApp.Utility\BaseApp.Application.csproj", "{87F1756E-B582-45D7-BF13-D12D92046EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp", "BaseApp\BaseApp.csproj", "{5E2E08A8-02F8-4762-AC17-63F01B87A726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseApp", "BaseApp\BaseApp.csproj", "{5E2E08A8-02F8-4762-AC17-63F01B87A726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
