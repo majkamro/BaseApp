@@ -1,0 +1,40 @@
+/*#region SettingFont */
+
+@font-face {
+    font-family: Iransans;
+    src: url('../lib/fonts/iransans/woff/IRANSansWeb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Nastaliq;
+    src: url('../lib/fonts/nastaliq/IranNastaliq.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Tanha;
+    src: url('../lib/fonts/tanha/Tanha-FD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FA;
+    src: url('../lib/fonts/fontAwesome/fontawesome-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-tanha:Tanha;
+$font-iransans:Iransans;
+$font-nastaliq:Nastaliq;
+$font-fa:FA;
+.fa {
+    font-family: $font-fa;
+}
+
+
+/*#endregion SettingFont*/
